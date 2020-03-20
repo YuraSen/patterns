@@ -1,15 +1,18 @@
-package builder;
+package builder.cars;
+
+import builder.CarBuilder;
+import builder.Transmission;
 
 public class HondaCRVBuilder extends CarBuilder {
-    void buildMark() {
+    public void buildMark() {
         car.setMark("HondaCRV");
     }
 
-    void buildTransmission() {
+    public void buildTransmission() {
         car.setTransmission(Transmission.AUTO);
     }
 
-    void buildMaxSpeed() {
+    public void buildMaxSpeed() {
         car.setMaxSpeed(240);
     }
 }

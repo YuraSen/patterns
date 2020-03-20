@@ -4,7 +4,6 @@ import adapter.composition.AdapterGraphics2;
 import adapter.composition.IGraphicsInterface2;
 import adapter.inheritance.AdapterGraphics;
 import adapter.inheritance.IGraphicsInterface;
-import adapter.inheritance.RasterGraphics;
 
 import java.io.FileNotFoundException;
 

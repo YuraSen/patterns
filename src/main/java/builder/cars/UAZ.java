@@ -3,9 +3,9 @@ package builder.cars;
 import builder.CarBuilder;
 import builder.Transmission;
 
-public class AlphaRomeoBuilder extends CarBuilder {
+public class UAZ extends CarBuilder {
     public void buildMark() {
-        car.setMark("AlphaRomeo");
+        car.setMark("UAZ");
     }
 
     public void buildTransmission() {
@@ -13,6 +13,6 @@ public class AlphaRomeoBuilder extends CarBuilder {
     }
 
     public void buildMaxSpeed() {
-        car.setMaxSpeed(320);
+        car.setMaxSpeed(120);
     }
 }
