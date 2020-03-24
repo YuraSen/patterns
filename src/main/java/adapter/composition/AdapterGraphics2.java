@@ -1,7 +1,7 @@
 package adapter.composition;
 
 public class AdapterGraphics2 implements GraphicsInterface2 {
-    RasterGraphics rg = new RasterGraphics();
+    RasterGraphics2 rg = new RasterGraphics2();
 
     public void printLine() {
         rg.drawLine();
