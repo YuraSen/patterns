@@ -1,6 +1,6 @@
 package adapter.composition;
 
-public class AdapterGraphics2 implements IGraphicsInterface2 {
+public class AdapterGraphics2 implements GraphicsInterface2 {
     RasterGraphics rg = new RasterGraphics();
 
     public void printLine() {

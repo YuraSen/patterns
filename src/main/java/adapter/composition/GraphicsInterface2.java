@@ -1,6 +1,6 @@
 package adapter.composition;
 
-public interface IGraphicsInterface2 {
+public interface GraphicsInterface2 {
     void printLine();
 
     void printSquare();

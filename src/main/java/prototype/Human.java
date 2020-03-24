@@ -1,6 +1,6 @@
 package prototype;
 
-public class Human implements IPrototype{
+public class Human implements Prototype {
     int age;
     String name;
 

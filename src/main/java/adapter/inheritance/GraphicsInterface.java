@@ -1,6 +1,6 @@
 package adapter.inheritance;
 
-public interface IGraphicsInterface {
+public interface GraphicsInterface {
     void printLine();
     void printSquare();
 }

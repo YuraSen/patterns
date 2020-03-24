@@ -1,5 +1,5 @@
 package prototype;
 
-public interface IPrototype{
+public interface Prototype {
     Object copy();
 }
